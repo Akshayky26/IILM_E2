@@ -1,0 +1,2 @@
+I have ignored all the commits of files having extension ".png"
+So don't be surprised when you find no such file having an entension .png in my repository since it won't be pushed to my global repository (aka Akshay sir's forked repository)
