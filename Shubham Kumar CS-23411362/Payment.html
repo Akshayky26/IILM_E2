@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment Trial method</title>
+</head>
+<body>
+
+<h2>Payment Method</h2>
+
+<form action="/payment_process" method="post">
+  <label for="card_number">Card ID:</label><br>
+  <input type="text" id="card_number" Costumer name="card_number" placeholder="Enter card number" required><br><br>
+
+  <label for="expiry_date">Expiry Date:</label><br>
+  <input type="text" id="expiry_date" name="expiry_date" placeholder="MM/YYYY" required><br><br>
+
+  <label for="cvv">Expiry:</label><br>
+  <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required><br><br>
+
+  <label for="cardholder_name">Cardholder ID:</label><br>
+  <input type="text" id="cardholder_name" name="cardholder_name" placeholder="Enter cardholder name" required><br><br>
+
+  <input type="submit" value="Submit Payment">
+</form>
+
+</body>
+</html>
