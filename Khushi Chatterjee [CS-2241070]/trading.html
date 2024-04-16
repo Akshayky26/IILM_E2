@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ALITRA Dashboard</title>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Ghar</a></li>
+                <li><a href="#finance">EMI</a></li>
+                <li><a href="#trade">Intratrade</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to the ALITRA's Dashboard</h1>
+        </section>
+        <section id="finance">
+            <h2>Finance</h2>
+            <form>
+                <label for="balance">Current Balance:</label>
+                <input type="text" id="balance" name="balance" value="0" readonly>
+                <br>
+                <label for="income">Income:</label>
+                <input type="text" id="income" name="income">
+                <br>
+                <label for="expenses">Expenses:</label>
+                <input type="text" id="expenses" name="expenses">
+                <br>
+                <input type="submit" value="Update">
+            </form>
+        </section>
+        <section id="trade">
+            <h2>Trade</h2>
+            <form>
+                <label for="goods">Goods:</label>
+                <select id="goods" name="goods">
+                    <option value="food">Food</option>
+                    <option value="oil">Oil</option>
+                    <option value="bauxite">bauxite</option>
+                    <option value="coal">coal</option>
+                    <option value="lead">lead</option>
+                    <option value="uranium">uranium</option>
+                    <option value="iron">iron</option>
+                    <option value="gasoline">gasoline</option>
+                    <option value="munitions">munitions</option>
+                    <option value="steel">steel</option>
+                    <option value="aluminum">aluminum</option>
+                    <option value="credit">credit</option>
+                </select>
+                <br>
+                <label for="quantity">Quantity:</label>
+                <input type="text" id="quantity" name="quantity">
+                <br>
+                <label for="price">Price:</label>
+                <input type="text" id="price" name="price">
+                <br>
+                <input type="submit" value="Trade">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2023 Politics and War</p>
+    </footer>
+  </body>
+</html>
